@@ -7,17 +7,32 @@ body {
 
 h3 {
   color: goldenrod;
+  text-transform: uppercase;
 }
 
-.textbox {
-  border-bottom: 1px solid goldenrod;
-}
-
-input {
+input, textarea{
   border: none;
   outline: none;
   background: none;
   color: white;
+  border-bottom: 1px solid goldenrod;
+  padding: 10px 6px;
+}
+
+button {
+  background: none;
+  color: white;
+  outline: none;
+  border: 1px solid goldenrod;
+  padding: 15px;
+  border-radius: 8px;
+  transition: all 0.4s;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background: goldenrod;
+  color: black;
 }
 
 .showcase::after {
@@ -56,7 +71,7 @@ input {
   border-radius: 10px;
 }
 
-.content .logo{
+.content .logo {
   height: 180px;
   width: 180px;
 }
@@ -66,7 +81,7 @@ input {
   padding-bottom: 1rem;
 }
 
-.content .text{
+.content .text {
   font-size: 1.4rem;
 }
 
@@ -92,3 +107,11 @@ input {
 .center {
   text-align: center;
 }
+
+.inner-width {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 20px;
+  align-items: center;
+}
+

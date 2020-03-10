@@ -18,12 +18,12 @@
 
   <section class="about">
     <div class="container grid-2">
-      <div class="center"> 
+      <div class="inner-width"> 
         <h3>Contact</h3>
-        <form class="contact-form grid-2" action="contact.txt" method="post">
+        <form class="contact-form" action="contact.txt" method="post">
           <div class="textbox">
             <i class="fas fa-user"></i>
-            <input type="text" name="first_name" maxlength="50" minlength="2" placeholder="Jane Doe" required>
+            <input type="text" name="first_name" maxlength="50" minlength="2" placeholder="Your Name" required>
           </div>
 
           <div class="textbox">
@@ -35,8 +35,12 @@
             <i class="fas fa-phone"></i>
             <input type="text" name="phone" placeholder="(###) ###-####">
           </div>
+
+          <div class="textbox">
+            <textarea name="message" cols="30" rows="10" placeholder="Information"></textarea>
+          </div>
          
-          <button type="submit" name="submit">Submit</button>
+          <button type="submit" name="submit">Get In Touch</button>
         </form>
       </div>
       <div>
